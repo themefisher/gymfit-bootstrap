@@ -1,0 +1,26 @@
+@@include('header.htm')
+@@include('blocks/navigation.htm')
+@@include('blocks/page-title.htm', {
+"title": "blog article",
+"description": "our blog"
+})
+
+<!-- Section Blog start -->
+<section class="section blog bg-gray">
+	<div class="container">
+		<div class="row">
+			@@include('blocks/blog-posts.htm')
+
+		</div>
+
+		<div class="row justify-content-center mt-5">
+			@@include('blocks/pagination.htm')
+		</div>
+	</div>
+</section>
+<!-- Section Blog End -->
+
+
+
+@@include('blocks/footer.htm')
+@@include('footer.htm')

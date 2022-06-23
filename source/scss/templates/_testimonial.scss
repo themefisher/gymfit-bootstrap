@@ -1,0 +1,26 @@
+.textimonial{
+	@extend .overly-2;
+}
+
+.w-40{
+	width: 40%;
+}
+
+.testimonial-slider .slick-dots li{
+	color: $light;
+}
+
+.slick-dots li.slick-active button::before{
+	color: $primary-color;
+}
+
+.slick-dots li button::before{
+	color: $light;
+	font-size: 10px;
+}
+
+.slick-slide {
+  &:focus, a {
+    outline: none;
+  }
+}

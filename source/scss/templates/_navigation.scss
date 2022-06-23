@@ -1,0 +1,108 @@
+.navbar-nav{
+
+  li{
+    padding: 0px 10px;
+  }
+ .nav-link{
+    font-family: $secondary-font;
+    color: $light;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+
+    -webkit-transition: all .25s ease;
+       -moz-transition: all .25s ease;
+        -ms-transition: all .25s ease;
+         -o-transition: all .25s ease;
+            transition: all .25s ease;
+    
+    &:hover, &:focus{
+      color: $primary-color;
+    }
+  }
+
+
+}
+
+
+
+.top-header{
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  font-size: 14px;
+  ul li{
+    padding: 0px 25px;
+    border-left: 1px solid $border-color;
+  }
+}
+
+.dropdown{
+  height: 100%;
+}
+.dropdown-menu {
+    background: #1c1c1c;
+    border-radius: 0px;
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,.03);
+    padding: 24px 0 26px;
+    min-width: 280px;
+    left:0px;
+    top: 100%;
+    -webkit-transform: translateY(10%);
+       -moz-transform: translateY(10%);
+        -ms-transform: translateY(10%);
+         -o-transform: translateY(10%);
+            transform: translateY(10%);
+    visibility: hidden;
+    opacity: 0;
+    z-index: 10;
+    transition:all .3s ease 0s;
+    display: block;
+}
+
+.dropdown-item {
+    color: #c8c8c8;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 12px;
+    padding: .55rem 2rem;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.dropdown:hover .dropdown-menu{
+    visibility: visible;
+    opacity: 1;
+    z-index: 20;
+      -webkit-transform: translateY(0%);
+       -moz-transform: translateY(0%);
+        -ms-transform: translateY(0%);
+         -o-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+
+.dropdown-item:hover{
+  background:transparent;
+  color: $primary-color;
+}
+
+ul.dropdown-menu li {
+    padding-left: 0px!important;
+}
+
+
+
+.fixed-nav{
+  background: $extra-color;
+}
+
+.navbar-toggler {
+    background-color:$light;
+    border: 1px solid $light;
+    border-radius: 0px;
+    padding: 5px 10px;
+}
+
+.navbar-collapse.collapse.show{
+  background: $extra-color;
+}

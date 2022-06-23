@@ -1,0 +1,98 @@
+.blog .card{
+	a h4{
+		font-weight: 700;
+		&:hover{
+			color: $primary-color;
+		}
+	}
+}
+.blog-post-meta{
+	span{
+		font-size: 13px;
+	}
+}
+
+.lh-25{
+	line-height: 23px;
+}
+
+.search i{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+.tags {
+	a{
+		display: inline-block;
+		color: $black;
+		border: 1px solid $border-color;
+		padding: 3px 10px;
+		margin-bottom: 5px;
+		text-transform: capitalize;
+		font-size: 14px;
+	}
+}
+
+
+
+.follow a{
+	width: 35px;
+	height: 35px;
+	background: $light;
+	display: inline-block;
+	text-align: center;
+	padding-top: 5px;
+}
+
+.pagination{
+	border: 0px;
+
+	li a{
+		color: $black;
+	}
+
+	.page-item.active .page-link {
+	    background-color:$primary-color;
+	    border-color:$primary-color;
+	    color: $light!important;
+	}
+	.page-item:last-child .page-link {
+	    border-radius: 0px;
+	}
+	.page-item:first-child .page-link {
+	    border-radius: 0px;
+	}
+	.page-link {
+	    background: transparent;
+	    padding: 15px 20px;
+	}
+
+}
+ 
+
+ .font-size-12{
+ 	font-size: 12px;
+ }
+
+ .post-tags a{
+ 	display: inline-block;
+ 	background: $light;
+ 	padding: 5px 10px;
+ }
+
+ .social-share{
+ 	a{
+ 		color: $black;
+ 		padding: 0px 10px;
+ 	}
+ }
+
+
+.reply-btn{
+    font-size: 12px;
+    padding: 6px 17px;
+    font-weight: 400;
+    border: 2px solid #eee;
+
+}

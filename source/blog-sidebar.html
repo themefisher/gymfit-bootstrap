@@ -1,0 +1,31 @@
+@@include('header.htm')
+@@include('blocks/navigation.htm')
+@@include('blocks/page-title.htm', {
+"title": "blog article",
+"description": "our blog"
+})
+
+<!-- Section Blog start -->
+<section class="section blog bg-gray">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-9">
+				<div class="row">
+					@@include('blocks/blog.htm')
+				</div>
+				<div class="row">
+					<div class="col-lg-12 mt-5">
+						@@include('blocks/pagination.htm')
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3">
+				@@include('blocks/post-sidebar.htm')
+			</div>
+		</div>
+	</div>
+</section>
+<!-- Section Blog End -->
+
+@@include('blocks/footer.htm')
+@@include('footer.htm')

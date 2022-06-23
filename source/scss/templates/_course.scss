@@ -1,0 +1,19 @@
+
+.mt--45{
+	margin-top: -45px;
+}
+
+.course {
+	.card-body{
+		a h4:hover {
+			color: $primary-color;
+		}
+	}
+}
+
+.course-widget{
+	li a{
+		color: $black;
+		opacity: .9;
+	}
+}

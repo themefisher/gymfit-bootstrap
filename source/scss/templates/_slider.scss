@@ -1,0 +1,20 @@
+.slider{
+	background: url("../images/bg/bg-7.jpg") no-repeat 0% 30%;
+	background-size: cover;
+	padding: 180px 0px;
+
+	@extend .overly-2;
+
+	h1{
+		font-size: 95px;
+		line-height: 95px;
+	}
+
+	span.subhead{
+		color:$light;
+		letter-spacing: 5px;
+		border: 2px solid $light;
+		padding: 3px 15px 5px 15px;
+		opacity: .8;
+	}
+}

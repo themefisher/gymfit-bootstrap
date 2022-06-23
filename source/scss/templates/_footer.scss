@@ -1,0 +1,52 @@
+
+.footer{
+    padding-top: 90px;
+    padding-bottom: 45px;
+    p{
+    	color: $light;
+		opacity: .8;
+		font-size: 14px;
+    }
+}
+
+.bg-black{
+	background: #111;
+}
+
+.footer-menu{
+	li a{
+		color: $light;
+		opacity: .8;
+		font-size: 14px;
+		&:hover{
+			color: $primary-color;
+			opacity: 1;
+		}
+	}
+}
+
+
+.lh-40{
+	line-height: 40px;
+}
+
+
+.footer-socials{
+	 li a{
+	 	color: $light;
+		opacity: .8;
+	 }
+}
+
+.recent-blog a{
+	line-height: 1.5;
+	font-size: 14px;
+}
+
+.footer-socials{
+	li a{
+		color: #595b65;
+		font-size: 18px;
+		padding-left: 10px;
+	}
+}

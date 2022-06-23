@@ -1,0 +1,20 @@
+
+.bg-2 {
+	background: url("../images/bg/bg-image-2-1.jpg")no-repeat;
+	background-size: cover;
+}
+
+.bg-3 {
+	background: url("../images/bg/bg-cta.jpg") no-repeat;
+	background-size: cover;
+}
+
+
+
+.bg-4 {
+	background: url("../images/about/img-7.jpg") no-repeat;
+	background-size: cover;
+	@extend .overly;
+}
+
+

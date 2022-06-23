@@ -1,0 +1,255 @@
+html,body{
+  overflow-x: hidden;
+  width: 100%;
+}
+.navbar-toggle .icon-bar {
+  background: $primary-color;
+}
+
+input[type="email"],input[type="password"],input[type="text"],input[type="tel"]{
+  box-shadow:none;
+  height:50px;
+  outline: none;
+  font-size:14px;
+  &:focus {
+    box-shadow: none;
+    border:1px solid $primary-color;
+  }
+}
+
+
+.form-control {
+  box-shadow: none;
+  border-radius: 0;
+  &:focus {
+    box-shadow:none;
+    border:1px solid $primary-color;
+  }
+}
+
+
+// Button Style
+
+.btn {
+  display: inline-block;
+  font-size: 14px;
+  letter-spacing: 1px;
+  padding: 18px 35px;
+  text-transform: uppercase;
+  border-radius:0;
+  font-weight: 700;
+  @include transition (all, 0.5s, ease);
+  border:1px solid transparent;
+}
+
+
+.btn-main{
+  background:  linear-gradient(90deg, rgb(245, 99, 75) 0%, #fe9418 100%);
+  color: $light;
+  &:hover{
+    background:  linear-gradient(90deg,  #fe9418 0%,rgb(245, 99, 75)  100%);
+    color: $light!important;
+     -webkit-transform: translateY(-5px);
+        -moz-transform: translateY(-5px);
+         -ms-transform: translateY(-5px);
+          -o-transform: translateY(-5px);
+             transform: translateY(-5px);
+  }
+}
+.btn-solid-border {
+  border:2px solid $primary-color;
+  background:transparent;
+  color:$light;
+  &:hover {
+    border:2px solid $primary-color;
+    background:$primary-color;
+  }
+}
+.btn-white {
+  border:2px solid $light;
+  background:$light;
+  color:$black;
+  &:hover {
+    border:1px solid $primary-color;
+    background:$primary-color;
+    color:$light!important;
+  }
+}
+
+
+.btn-transparent {
+  @extend .btn-main;
+  background:transparent;
+  padding:0;
+  color:$primary-color;
+  &:hover {
+    background:transparent;
+    color:$primary-color;
+  }
+}
+
+.btn-large {
+  padding:20px 45px;
+  &.btn-icon {
+    i {
+      font-size:16px;
+      vertical-align:middle;
+      margin-right:5px;
+    }
+  }
+}
+.btn-small {
+  @extend .btn-main ;
+  padding:10px 25px;
+  font-size:12px;
+}
+
+.btn-round {
+  border-radius:4px;
+}
+.btn-round-full {
+  border-radius:50px;
+}
+
+
+.btn.active:focus, .btn:active:focus, .btn:focus {
+  outline: 0;
+}
+
+
+
+
+
+
+.bg-shadow {
+  background-color: $light;
+  box-shadow: 0 16px 24px rgba(0,0,0,.08);
+  padding:20px;
+}
+
+.bg-gray {
+  background:#f0f2f4;
+}
+.bg-primary {
+  background:$primary-color!important;
+}
+
+.section {
+  padding:100px 0;
+}
+
+
+.section-title {
+  margin-bottom: 70px;
+ 
+ .title{
+  font-size: 50px;
+  line-height: 50px;
+ }
+  p {
+      color: #666;
+      font-family:$secondary-font;
+  }
+}
+
+
+
+.page-title{
+  padding: 155px 0 100px;
+  @extend .overly-2;
+}
+
+
+.overly {
+  position: relative;
+  &:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #232323;
+    opacity: 0.8;
+  }
+}
+
+
+
+.overly-2{
+  position: relative;
+  &:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background:#000;
+    opacity: 0.8;
+  }
+}
+
+
+
+#success , #error {
+    display: none;
+}
+
+
+.text-color{
+  color: $primary-color;
+}
+
+.text-black{
+  color: $black;
+}
+
+.text-sm{
+  font-size: 14px;
+}
+.text-md{
+  font-size: 26px;
+  line-height: 36px;
+}
+.text-lg{
+  font-size: 56px;
+  line-height: 66px;
+}
+
+.no-spacing{
+  letter-spacing: 0px
+}
+
+
+a{
+  -webkit-transition: all .35s ease;
+       -moz-transition: all .35s ease;
+        -ms-transition: all .35s ease;
+         -o-transition: all .35s ease;
+            transition: all .35s ease;
+}
+a:hover,a:focus{
+  color: $primary-color!important;
+  text-decoration: none!important;
+  outline:0;
+}
+
+
+.font-size-13{
+  font-size: 13px;
+}
+
+.letter-spacing{
+  letter-spacing: 1px;
+}
+
+
+
+.bg-black-50{
+  background: $extra-color;
+}

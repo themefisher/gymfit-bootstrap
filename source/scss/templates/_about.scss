@@ -1,0 +1,77 @@
+.mt-80px{
+	margin-top: -80px;
+}
+
+
+
+.number{
+	opacity: 0.1;
+	font-size: 130px;
+	display: block;
+	line-height: 120px;
+	position: absolute;
+	top: 10px;
+}
+
+	
+
+.why .card{
+	-webkit-transition: all .4s ease 0s;
+	-moz-transition: all .4s ease 0s;
+	 -o-transition: all .4s ease 0s;
+		transition: all .4s ease 0s;
+	&:hover {
+		background: $extra-color;
+	}
+}
+
+.why .card:hover h3,
+.why .card:hover p{
+	color: $light;
+}
+
+.hover-style-1{
+	position: relative;
+	&:before{
+	    position: absolute;
+	    content: '';
+	    left: 0px;
+	    top: 0px;
+	    width: 100%;
+	    height: 0px;
+	    -webkit-transition: all 600ms ease;
+	    -ms-transition: all 600ms ease;
+	    -o-transition: all 600ms ease;
+	    transition: all 600ms ease;
+	    background:  linear-gradient(90deg, rgb(245, 99, 75) 0%, #fe9418 100%);
+	    border-color: $primary-color;
+	}
+
+	h3,p,a,i,h4{
+		position: relative;
+		 -webkit-transition: all 600ms ease;
+	    -ms-transition: all 600ms ease;
+	    -o-transition: all 600ms ease;
+	    transition: all 600ms ease;
+	}
+	&:hover {
+
+		&:before{
+			height: 100%;
+		}
+		a{
+			color: rgba(255,255,255,.8)!important;
+		}
+	}
+}
+
+.hover-style-1:hover h3,
+.hover-style-1:hover h4,
+.hover-style-1:hover p,
+.hover-style-1:hover a{
+	color:$light;
+}
+
+.hover-style-1:hover i{
+	color: rgba(255,255,255,.8)!important;
+}

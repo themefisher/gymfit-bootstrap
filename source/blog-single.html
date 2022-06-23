@@ -1,0 +1,27 @@
+@@include('header.htm')
+@@include('blocks/navigation.htm')
+@@include('blocks/page-title.htm', {
+"title": "Enhance beauty Health",
+"description": "blog single"
+})
+
+
+<!-- Section Blog start -->
+<section class="section blog bg-gray">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-lg-9 col-md-12">
+				<div class="row">
+					@@include('blocks/post-single.htm')
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-8">
+				@@include('blocks/post-sidebar.htm')
+			</div>
+		</div>
+	</div>
+</section>
+<!-- Section Blog End -->
+
+@@include('blocks/footer.htm')
+@@include('footer.htm')

@@ -1,0 +1,91 @@
+
+
+.team-content-overlay li {
+	a{
+		color: $light;
+		&:hover{
+			background:$primary-color;
+		}
+	}
+}
+
+
+.team-item .card-body{
+	margin-top: -120px;
+}
+
+
+.team-content-overlay{
+	display: inline-block;
+ 	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	opacity: 0;
+	width: 100%;
+	background-color: rgba(41,40,45,.85);
+	-webkit-transition: opacity .3s ease-out;
+	-moz-transition: opacity .3s ease-out;
+	transition: opacity .3s ease-out;
+}
+
+.overlay-content{
+	width: 100%;
+	position: absolute;
+	left: 0;
+	padding: 25px;
+	box-sizing: border-box;
+	text-align: center;
+	top: 50%;
+	transform: translateY(-40%);
+}
+
+.team-item:hover .team-content-overlay{
+	opacity: 1;
+}
+
+.team-item:hover .card-body{
+	opacity: 0;
+}
+
+/// Team Home
+
+
+.team-wrap{
+	.card-subtitle{
+		position: relative;
+		&:after{
+			content: '';
+			position: absolute;
+		    display: block;
+		    width: 100%;
+		    max-width: 26px;
+		    border-top: 4px solid #ddd;
+		    margin-top: 20px;
+		}
+	}
+
+	ul li a{
+		width: 40px;
+		height: 40px;
+		border: 1px solid $border-color;
+		color:$black;
+		display: inline-block;
+		text-align: center;
+		padding-top: 6px;
+		
+
+		&:hover{
+			background: $primary-color;
+			border-color: $primary-color;
+			color: $light!important;
+		}
+	}
+}
+
+.divider{
+	margin: 0 auto;
+	background: $primary-color;
+	width: 45px;
+	height: 4px;
+}
