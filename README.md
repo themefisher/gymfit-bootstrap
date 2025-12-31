@@ -1,6 +1,6 @@
 # GymFit Free Bootstrap Gym Website Template
 
-![gymfit](https://demo.themefisher.com/thumbnails/gymfit.png)
+![gymfit](https://assets.teamosis.com/thumbs/gymfit.png)
 
 👉🏻[View Live Preview](https://demo.themefisher.com/gymfit/)
 
